@@ -2,22 +2,19 @@
   <header>
       <nav>
         <ul>
-           <li><a href="#">Comics</a></li>
-           <li><a href="#">Movies</a></li>
+           <li><a href="#">We have a 95% Successful Pass Rate!</a></li>
+           <li><a href="#">Give us a call to book your tuition! 1-800-555-555</a></li>
         </ul>
         
          <ul>
-           <li><a href="#"><img alt="Avada logo" src="../assets/images/avada-drivers-logo-1x.png"></a></li>
-           <li><a href="#">Characters</a></li>
-           <li><a href="#">Comics</a></li>
-           <li><a href="#">Movies</a></li>
-           <li><a href="#">Tv</a></li>
-           <li><a href="#">Games</a></li>
+           <li><a href="#"><img src="../assets/images/avada-drivers-logo-2x-300x58.png" alt="footer-ad-grid"><br></a></li>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Prices</a></li>
+           <li><a href="#">Courses</a><button type="button">Book Now</button></li>
+           <li><a href="#">Locations</a></li>
            <li><a href="#">Collectibles</a></li>
-           <li><a href="#">Videos</a></li>
-           <li><a href="#">Fans</a></li>
-           <li><a href="#">News</a></li>
-           <li><a href="#">Shop</a></li>
+           <li><a href="#">Blog</a></li>
            <li><button type="button">Book Now</button></li>  
          </ul>
       </nav>
@@ -36,15 +33,23 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
+
+
 header {
   text-align: center;
 
+
+  ul:first-child {
+  background-color: #353637;
+  display: flex;
+  justify-content: space-between;
+  
+}
 
   ul {
     list-style-type: none;
     margin: 20px 0;
     text-align: center;
-    
     
 
     li {
@@ -54,7 +59,7 @@ header {
 
       a {
         text-decoration: none;
-        color: #1C1C1C;
+        color: #8295A0;
         text-transform: uppercase;
         font-size: 0.7em;
 
@@ -64,11 +69,11 @@ header {
         
 
         &:hover {
-          color: #0082F9;
+          color: #7ABC64;
         }
 
         &:active {
-          background-color: #0082F9;
+          background-color: #7ABC64;
         }
       }
 
